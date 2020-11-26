@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Animation Using Css...</title>
+
+	<style>
+		div
+		{
+			margin:20% 0% 20% 10%;
+			width: 100%;
+		}
+		div h1:after{
+			content:'';
+			font-size: 40px;
+			text-shadow: 5px 5px 7px teal;
+			color: Orange;
+			animation: changeContet linear 10s infinite;
+		}
+
+		@keyframes changeContet{
+			0%{content: "YouTube";}
+			20%{content: "WhatsApp";}
+			40%{content: "GitHub";}
+			60%{content: "FaceBook";}
+			80%{content: "Instagram";}
+			90%{content: "WordPress";}
+			100%{content: "DreamViewer";}
+		}
+	</style>
+</head>
+<body>
+	<div>
+		<h1>Wel Come to My Website,For Further Information's Visit My Page On. </h1>
+	</div>
+</body>
+</html>
